@@ -35,7 +35,7 @@ var toggle = function (e) {
 
 window.addEventListener("load", function () {
     "use strict";
-    faqs = $(faqs);
+    faqs = $("faqs");
     h2Elements = faqs.getElementsByTagName("h2");
     
     for (i = 0; i < h2Elements.length; i += 1) {
